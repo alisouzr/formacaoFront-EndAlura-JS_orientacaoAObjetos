@@ -12,6 +12,7 @@
   },
   "author": "Aliny",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/alisouzr/formacaoFront-EndAlura-JS_orientacaoAObjetos/issues"
   },
