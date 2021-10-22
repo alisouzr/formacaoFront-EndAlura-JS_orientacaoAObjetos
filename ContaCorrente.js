@@ -1,8 +1,15 @@
+import { Cliente } from "./Cliente.js";
+
 export class ContaCorrente {
     agencia;
-    cliente;
+    _cliente;
 
 
+    set cliente(novoValor) {
+        if (novoValor instanceof Cliente) {
+            this._cliente = novoValor;
+        }
+    }
     // #saldo =0 https://github.com/tc39/proposal-class-fields#private-fields
     _saldo = 0;
 
